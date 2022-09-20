@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Create a database based on a diagram
+<img width="949" alt="Screenshot 2022-09-20 at 21 47 35" src="https://user-images.githubusercontent.com/48546992/191340072-54dcb809-f988-4d98-b8df-be3e46a52463.png">
+
 
 > In this project, we used a [database diagram](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/database_from_diagram.md), interpreted it, and implemented the SQL needed to build that database.
 
