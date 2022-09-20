@@ -36,7 +36,7 @@ CREATE TABLE invoice_items (
    unit_price DECIMAL,
    quantity INT,
    total_price DECIMAL,
-   invoice_id INT NOT NULL  REFERENCES invoices(id),,
+   invoice_id INT NOT NULL  REFERENCES invoices(id),
    treatment_id INT NOT NULL  REFERENCES treatments(id),
    PRIMARY KEY (id)
 );
@@ -44,5 +44,5 @@ CREATE TABLE invoice_items (
 CREATE TABLE diagnosis(
       treat_id INT NOT NULL  REFERENCES treatments(id),
       med_hist_id INT NOT NULL   REFERENCES medical_histories(id),
-      PRIMARY KEY( treat_id, med_hist_id) UNIQUE
+      PRIMARY KEY( treat_id, med_hist_id)
 );
